@@ -131,9 +131,9 @@ main {
 
 .table1 select {
     width: 100%;
+    border: 1px solid #c3c3c3;
     padding: 5px;
     font-size: 16px;
-    text-align: center;
 }
 
 .table1 td:first-child,.table1 th:first-child{
@@ -210,7 +210,8 @@ footer {
     }
 
     .header-list {
-        overflow-x: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
         border: none;
     }
 }
